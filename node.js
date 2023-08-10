@@ -56,3 +56,11 @@ var array4= new Array(
 console.log(array4);
 var array5=new Array(1,2,3,"salam",{key:'value' , key1:'value1'});
 console.log(array5);
+// operatores
+var a=3;
+console.log(a+2);
+console.log(a-2);
+console.log(a*2);
+console.log(a**2);
+console.log(a/2);
+console.log(a%2);

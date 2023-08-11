@@ -121,4 +121,54 @@ if ( a == b){
 } else if (add && subtracke){
     console.log( "I get it")
 }
-
+//switch
+var detail="Fatemeh";
+switch(detail){
+    case "Fatemeh":
+        console.log(" I am fatemeh")
+    break;
+    case "zahra":
+        console.log( "I am zahra")
+    break;
+}
+// effect of do not put break when true is frist
+var age=27;
+switch( age){
+    case 27:
+        console.log(" I am 27 years old")
+    case 32:
+        console.log( " I am 32 years old")
+}
+// effect of do not put break when false is frist
+var imfo="Sadeghi";
+switch(imfo){
+    case "ghazi":
+        console.log( " I am Ghazi")
+    case "Sadeghi":
+        console.log( " I am Sadeghi")
+}
+// default instead of else
+var career="radio";
+switch (career){
+    case "dentist":
+        console.log(" I am dentist")
+    break;
+    case "teacher":
+        console.log(" I am teacher")
+    break;
+    default:
+        console.log( "I work in company")
+}
+var obj={
+    frist_name:"Fatemeh",
+    last_name:"sadeghi",
+    age:27
+}
+switch (obj.age){
+    case 27:
+        console.log(" I am 27 years old")
+    break;
+    case 32:
+        console.log ( " I am 32 years old")
+    break;
+}

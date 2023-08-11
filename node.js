@@ -179,3 +179,38 @@ var c= a==10 ? "it is string" : "it is not string"
 console.log(c)
 var d= a===b ? "it is string" : "it is not string"
 console.log(d)
+// for loop
+for(var i=0; i<10; i=i+1  ){
+    console.log("number is", i)
+}
+for ( var a=2 ; a<20 ; a=a*2){
+    console.log(a)
+}
+const ar=['fati', 'anmar','zahra','ziba',2,4];
+for ( var i=0; i<ar.length; i++){
+    console.log(" name is", ar[i])
+}
+// forEach
+const ar2=['fati', 'anmar','zahra','ziba'];
+ar2.forEach(function(name){
+    console.log("my name is", name)
+})
+ar2.forEach(function(name , index){
+    console.log("my name is", name , index)
+})
+//map
+ar2.map(function(name){
+   console.log(name + " sadeghi") 
+})
+ar2.map(function(kkk){
+    return kkk + " ghazi"
+})
+// console.log(?)
+
+// for (  in   )
+for (i in ar2){
+    console.log(i)
+}
+for ( i in ar2){
+    console.log( "I am",ar2[i])
+}

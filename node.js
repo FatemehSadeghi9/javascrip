@@ -214,3 +214,15 @@ for (i in ar2){
 for ( i in ar2){
     console.log( "I am",ar2[i])
 }
+// while
+var count= 1;
+while(count<10){
+    console.log(count);
+    count=count*2
+}
+const obj2=['fati', 'zara', 'sama', 'lia']
+var s=0;
+while (s<obj2.length){
+    console.log('name of user is', obj2[s])
+    s++
+}

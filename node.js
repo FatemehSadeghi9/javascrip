@@ -107,3 +107,18 @@ var app= {
 }
 console.log(app.print1(2,3));
 console.log(app.print2({Name:'fatemeh', age:27, career:'radio'}))
+
+// if & else if & else
+var a=10;
+var b=20;
+var add=true;
+var sum=false;
+var subtracke=true;
+if ( a == b){
+    console.log('it is ok')
+} else if ( b > a){
+    console.log(" i understand")
+} else if (add && subtracke){
+    console.log( "I get it")
+}
+

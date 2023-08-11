@@ -64,3 +64,46 @@ console.log(a*2);
 console.log(a**2);
 console.log(a/2);
 console.log(a%2);
+//functions
+var start=function(){
+    console.log("fatemeh");
+};
+start();
+var end=function(){
+    return 'hello word'
+}
+console.log(end());
+var sum=function(){
+    console.log(4+5)
+}
+sum();
+var add=function(a,b){
+    console.log(a*b);
+}
+add(2,3);
+var summing=function(a,b){
+    return a/b
+}
+console.log(summing(4,1));
+
+var detail=function(teacher){
+    return teacher.Name;
+}
+console.log(detail({Name:'fatemeh', age:27, career:'radio'}));
+
+var pay=function(amout){
+    var newamount=amout*10;
+    return newamount;
+}
+console.log(pay(12));
+var app= {
+    print1: function(a,b){
+        return a+b;
+    },
+    print2: function(teacher){
+        return teacher.Name
+    },
+    last_name:'sadeghi'
+}
+console.log(app.print1(2,3));
+console.log(app.print2({Name:'fatemeh', age:27, career:'radio'}))

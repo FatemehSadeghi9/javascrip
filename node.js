@@ -172,3 +172,10 @@ switch (obj.age){
         console.log ( " I am 32 years old")
     break;
 }
+// ? :
+var a=10;
+var b="10";
+var c= a==10 ? "it is string" : "it is not string"
+console.log(c)
+var d= a===b ? "it is string" : "it is not string"
+console.log(d)

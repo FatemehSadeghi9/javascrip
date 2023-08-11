@@ -226,3 +226,20 @@ while (s<obj2.length){
     console.log('name of user is', obj2[s])
     s++
 }
+//bubble Sort
+var originalarray=[5,3,1,4,2,6];
+for(var i=0 ; i<originalarray.length; i++){
+    for ( var j=0; j<originalarray.length ; j++)
+    if (originalarray[i] < originalarray[j]){
+        var temp=originalarray[j]
+        originalarray[j]=originalarray[i]
+        originalarray[i]=temp
+    }
+}
+console.log(originalarray)
+
+//sort
+originalarray.sort(function(number1, number2){
+    return number2-number1
+})
+console.log(originalarray)
